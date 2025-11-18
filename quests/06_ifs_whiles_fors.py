@@ -38,5 +38,7 @@ eng = [90, 80, 70, 70, 60]
 
 sum_total = 0
 
-for i in range(0, 10):    # 오류 발생
+for i in range(len(kor)):    # 수정된 부분
     sum_total = sum_total + kor[i] + eng[i]
+
+print(f'각 과목 합계의 총합 : {sum_total}')
