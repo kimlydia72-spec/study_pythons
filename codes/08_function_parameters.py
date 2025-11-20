@@ -52,7 +52,7 @@ math_scores = [88, 78, 68, 58, 48]
 def get_for_sum(korean_scores, english_scores, mathematics_scores):
     # 실행할 코드
     for i in range(len(korean_scores)):
-        kor = korrean_scores[i]
+        kor = korean_scores[i]
         eng = english_scores[i]
         math = mathematics_scores[i]
         sum = get_sum(kor, eng, math)
